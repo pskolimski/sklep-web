@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 15 Pro Max",
+        "price": 5299.99,
+        "imageUrl": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=400&fit=crop",
+        "rates": [
+            5,
+            5,
+            4,
+            5,
+            5
+        ],
+        "stock": 15
+    },
+    {
+        "id": 2,
+        "name": "MacBook Pro 14\"",
+        "price": 8999.99,
+        "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop",
+        "rates": [
+            5,
+            4,
+            5,
+            4,
+            5
+        ],
+        "stock": 8
+    },
+    {
+        "id": 3,
+        "name": "Sony WH-1000XM5",
+        "price": 1199.99,
+        "imageUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=400&fit=crop",
+        "rates": [
+            5,
+            5,
+            5,
+            4,
+            5
+        ],
+        "stock": 3
+    },
+    {
+        "id": 4,
+        "name": "iPad Air 5",
+        "price": 2399.99,
+        "discountedPrice": 1919.99,
+        "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=400&fit=crop",
+        "rates": [
+            4,
+            5,
+            4,
+            4,
+            5
+        ],
+        "stock": 12
+    },
+    {
+        "id": 5,
+        "name": "PlayStation 5",
+        "price": 1949.99,
+        "discountedPrice": 1267.49,
+        "imageUrl": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=400&h=400&fit=crop",
+        "rates": [
+            5,
+            4,
+            5,
+            5,
+            4
+        ],
+        "stock": 7
+    },
+    {
+        "id": 6,
+        "name": "Samsung OLED 55\"",
+        "price": 4249.99,
+        "discountedPrice": 3612.49,
+        "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=400&fit=crop",
+        "rates": [
+            4,
+            4,
+            5,
+            4,
+            4
+        ],
+        "stock": 0
+    },
+    {
+        "id": 7,
+        "name": "Canon EOS R5",
+        "price": 12999.99,
+        "imageUrl": "https://images.unsplash.com/photo-1606980676107-1b8ab5f8e4f0?w=400&h=400&fit=crop",
+        "rates": [
+            4,
+            4,
+            5,
+            4,
+            4
+        ],
+        "stock": 5
+    },
+    {
+        "id": 8,
+        "name": "iMac 24\" M3",
+        "price": 6799.99,
+        "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=400&fit=crop",
+        "rates": [
+            5,
+            4,
+            5,
+            4,
+            5
+        ],
+        "stock": 11
+    }
+]
