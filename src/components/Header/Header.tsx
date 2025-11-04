@@ -12,16 +12,32 @@ export default function Header() {
 
     return (
         <header className="app-header">
-            <div className="header-inner">
-                <h1 className="app-title">
-                    <i className="bi bi-laptop" aria-hidden="true"></i>
-                    Katalog Produktów Elektronicznych
-                </h1>
+            <div className="header-top">
+                <div className="header-inner">
+                    <div className="brand-section">
+                        <div className="brand-icon">
+                            <i className="bi bi-shop" aria-hidden="true"></i>
+                        </div>
+                        <div className="brand-content">
+                            <h1 className="app-title">
+                                <span className="title-main">ElectroShop</span>
+                                <span className="title-sub">Najlepsze produkty elektroniczne</span>
+                            </h1>
+                        </div>
+                    </div>
 
-                <div className="cart-badge" aria-label="Informacje o koszyku">
-                    <i className="bi bi-cart" aria-hidden="true"></i>
-                    <span className="cart-count" title="Liczba produktów">{count}</span>
-                    <span className="cart-total" title="Łączna wartość">{formatter.format(total)}</span>
+                    <div className="header-actions">
+                        <div className="cart-badge" aria-label="Informacje o koszyku">
+                            <div className="cart-icon-wrapper">
+                                <i className="bi bi-cart3" aria-hidden="true"></i>
+                                {count > 0 && <span className="cart-count-bubble">{count}</span>}
+                            </div>
+                            <div className="cart-info">
+                                <span className="cart-label">Koszyk</span>
+                                <span className="cart-total">{formatter.format(total)}</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>

@@ -4,6 +4,8 @@
     padding: 1.5rem;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
     animation: slideInLeft 0.5s ease-out;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 @keyframes slideInLeft {
@@ -102,15 +104,19 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    width: 100%;
 }
 
 .price-inputs input {
     flex: 1;
+    min-width: 0;
+    max-width: 100%;
     padding: 0.5rem;
     border: 1px solid var(--bs-border-color);
     border-radius: 6px;
     font-size: 0.9rem;
     transition: border-color 0.2s ease;
+    box-sizing: border-box;
 }
 
 .price-inputs input:focus {
